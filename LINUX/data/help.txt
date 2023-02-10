@@ -1,0 +1,14 @@
+
+Usage: python project.py [PROFILE_NAME] [OPTIONS]
+
+  Simple program that allows you to add and remove items to your todo list
+
+Options:
+  --add ITEM       Adds the "TEXT" item to your todo list
+  --rm ITEM        Removes the "TEXT" item from your todo list
+  --list           Lists the items in your todo list
+  --help           Show this message and exit.
+
+  Note: Multiple ITEM can be added or removed by separating the items with space.
+  Note: if ITEM has multiple words be sure to enclose it in quotes(""), else it will be treated as separate items.
+
