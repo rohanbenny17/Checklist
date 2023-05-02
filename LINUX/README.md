@@ -26,28 +26,28 @@ If you downloaded the file for a WINDOWS system, follow these steps.
 First of all - you need to know that, if it not a bug then its a feature. You also need to know that if it is a bug then its still a feature.
 1. **Help:**:
  Displays a help screen showing how to use the program and the things you should keep in mind while using it.
--     Usage: python project.py --help
--     Usage: python project.py [PROFILE_NAME] --help
+-     Usage: python checklist.py --help
+-     Usage: python checklist.py [PROFILE_NAME] --help
 2. **Add:**:
  It adds item(s) to the checklist.
 
    Note: To add items with multiple words, the item must be quoted.
--     Usage: python project.py [PROFILE_NAME] --add hello
--     Usage: python project.py [PROFILE_NAME] --add hi hey bye goodbye
--     Usage: python project.py [PROFILE_NAME] --add "good night"
+-     Usage: python checklist.py [PROFILE_NAME] --add hello
+-     Usage: python checklist.py [PROFILE_NAME] --add hi hey bye goodbye
+-     Usage: python checklist.py [PROFILE_NAME] --add "good night"
 3. **Remove:**
  It is used to remove item(s) from the checklist.
 
    Note: To remove items with multiple words, the item must be quoted.
--     Usage: python project.py [PROFILE_NAME] --rm hello
--     Usage: python project.py [PROFILE_NAME] --rm hi hey bye goodbye
--     Usage: python project.py [PROFILE_NAME] --rm "good night"
+-     Usage: python checklist.py [PROFILE_NAME] --rm hello
+-     Usage: python checklist.py [PROFILE_NAME] --rm hi hey bye goodbye
+-     Usage: python checklist.py [PROFILE_NAME] --rm "good night"
 4. **List Items:**
  It is used to list all the items in the check list.
- -     Usage: python project.py [PROFILE_NAME] --ls
+ -     Usage: python checklist.py [PROFILE_NAME] --ls
 5. **Delete:**
  It is used to delete a profile mentioned in the command-line argument
--     Usage: python project.py [PROFILE_NAME] --delete
+-     Usage: python checklist.py [PROFILE_NAME] --delete
 
 Finally, if something happens which was not supposed to happen then CTRL + Z is you friend.
 
