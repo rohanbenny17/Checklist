@@ -26,8 +26,8 @@ If you downloaded the file for a WINDOWS system, follow these steps.
 First of all - you need to know that, if it not a bug then its a feature. You also need to know that if it is a bug then its still a feature.
 1. **Help:**:
  Displays a help screen showing how to use the program and the things you should keep in mind while using it.
--     Usage: python project.py --help
--     Usage: python project.py [PROFILE_NAME] --help
+-     Usage: python checklist.py --help
+-     Usage: python checklist.py [PROFILE_NAME] --help
 2. **Add:**:
  It adds item(s) to the checklist.
 
